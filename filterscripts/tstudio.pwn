@@ -214,6 +214,10 @@ Change Log:
 // Compile the local input module for advanced keys and mouse control
 //#define COMPILE_LOCAL_INPUT
 
+//const correctness off - how to fix: https://github.com/pawn-lang/YSI-Includes/commit/ab75ea38987e6a7935aa3100eba5284cb3d706e1
+#pragma warning disable 239
+#pragma warning disable 214
+
 #if defined DEBUG
 	#define DB_DEBUG true
 	#define DB_QUERY_ERRORS true
