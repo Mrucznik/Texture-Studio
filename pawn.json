@@ -6,7 +6,11 @@
 	"local": true,
 	"dependencies": [
 		"sampctl/samp-stdlib",
-		"sampctl/pawn-stdlib"
+		"sampctl/pawn-stdlib",
+		"https://github.com/zeex/samp-plugin-crashdetect",
+		"https://github.com/JaTochNietDan/SA-MP-FileManager",
+		"https://github.com/samp-incognito/samp-streamer-plugin",
+		"https://github.com/maddinat0r/sscanf"
 	],
 	"runtime": {
 		"version": "0.3.7",
