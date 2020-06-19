@@ -11,7 +11,8 @@
 		"https://github.com/samp-incognito/samp-streamer-plugin",
 		"https://github.com/maddinat0r/sscanf",
 		"Southclaws/formatex",
-		"Pottus/ColAndreas"
+		"Pottus/ColAndreas",
+		"oscar-broman/samp-introspect"
 	],
 	"local": true,
 	"runtime": {
