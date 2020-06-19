@@ -1,46 +1,25 @@
 {
 	"user": "Crayder",
 	"repo": "Texture-Studio",
-	"entry": "filterscripts/tstudio.pwn",
-	"output": "filterscripts/tstudio.amx",
+	"entry": "gamemodes/bare.pwn",
+	"output": "gamemodes/bare.amx",
+	"local": true,
 	"dependencies": [
-		"https://github.com/JaTochNietDan/SA-MP-FileManager",
-		"https://github.com/samp-incognito/samp-streamer-plugin",
-		"https://github.com/maddinat0r/sscanf",
-		"https://github.com/zeex/samp-plugin-crashdetect"
-	],
-	"builds": [
-		{
-			"name": "release",
-			"args": [
-				"-;+",
-				"-(+",
-				"-Z+"
-			],
-			"includes": [
-				"./pawno/include/"
-			]
-		},
-		{
-			"name": "debug",
-			"args": [
-				"-;+",
-				"-(+",
-				"-d3",
-				"-Z+"
-			],
-			"includes": [
-				"./pawno/include/"
-			]
-		}
+		"sampctl/samp-stdlib",
+		"sampctl/pawn-stdlib"
 	],
 	"runtime": {
 		"version": "0.3.7",
 		"mode": "server",
 		"echo": "-",
-		"rcon_password": "password",
-		"port": 7777,
-		"hostname": "SA-MP Server",
+		"filterscripts": [
+			"tstudio",
+			"TD",
+			"fsdebug"
+		],
+		"rcon_password": "mrucznik",
+		"port": 7778,
+		"hostname": "!PL! Mrucznik Role Play - Texture-Studio !PL!",
 		"maxplayers": 50,
 		"language": "",
 		"mapname": "San Andreas",
