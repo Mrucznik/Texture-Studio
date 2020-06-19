@@ -40,3 +40,6 @@ Icon
 .Trashes
 *.session
 pawno/pawnc.bat
+
+# sampctl
+dependencies/
