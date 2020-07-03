@@ -43,3 +43,10 @@ pawno/pawnc.bat
 
 # sampctl
 dependencies/
+*.so
+*.dll
+*.exe
+announce
+samp03svr
+samp-npc
+*.amx
