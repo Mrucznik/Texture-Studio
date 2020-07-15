@@ -43,6 +43,8 @@ pawno/pawnc.bat
 
 # sampctl
 dependencies/
+
+# samp files
 *.so
 *.dll
 *.exe
@@ -50,3 +52,7 @@ announce
 samp03svr
 samp-npc
 *.amx
+server.cfg
+
+# idea
+.idea
